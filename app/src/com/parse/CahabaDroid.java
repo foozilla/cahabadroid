@@ -7,7 +7,7 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.widget.TextView;
 import com.loopj.android.http.*;
-
+import org.apache.http.Header;
 /**
  * Simplistic demo of using JSON - real example would use network
  * connection and a threading solution
@@ -37,10 +37,36 @@ public class CahabaDroid extends Activity {
 		}
     }
 
+
+
+	public void onStart() {
+		// called before request is started
+	}
+
+
+	public void onSuccess(int statusCode, Header[] headers, byte[] response) {
+		// called when response HTTP status is "200 OK"
+	}
+
+
+	public void onFailure(int statusCode, Header[] headers, byte[] errorResponse, Throwable e) {
+		// called when response HTTP status is "4XX" (eg. 401, 403, 404)
+	}
+
+
+	public void onRetry(int retryNo) {
+		// called when request is retried
+	}
+
     /** Mock up some JSON data */
 	private String getJsonString() {
 
+		AsyncHttpClient client = new AsyncHttpClient();
 
+		client.get("https://www.google.com", new AsyncHttpResponseHandler() {
+
+
+		});
 
 		JSONObject string = new JSONObject();
 		try {
@@ -54,3 +80,4 @@ public class CahabaDroid extends Activity {
 		return string.toString();
 	}
 }
+

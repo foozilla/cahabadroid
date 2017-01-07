@@ -1,7 +1,0 @@
-#Fri Jan 06 17:34:30 CST 2017
-base.0=/home/fo/code/cahabadroid/src/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_3f8d5beace98caa087456fad13e94c2090b9248c
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=/home/fo/code/cahabadroid/src/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_7e035021dd9259ecbc7ff55a9f1150cbefc99fb1/classes.dex
-base.1=/home/fo/code/cahabadroid/src/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_7e035021dd9259ecbc7ff55a9f1150cbefc99fb1
-file.0=/home/fo/code/cahabadroid/src/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_3f8d5beace98caa087456fad13e94c2090b9248c/classes.dex
