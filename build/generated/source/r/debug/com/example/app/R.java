@@ -45,8 +45,10 @@ containing a value of this type.
     }
     public static final class id {
         public static final int graph=0x7f040000;
-        public static final int lMain=0x7f040001;
-        public static final int tMain=0x7f040002;
+        public static final int lMain=0x7f040003;
+        public static final int listLayout=0x7f040001;
+        public static final int siteList=0x7f040002;
+        public static final int tMain=0x7f040004;
     }
     public static final class layout {
         public static final int graphwidget=0x7f020000;

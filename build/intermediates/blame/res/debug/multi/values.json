@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/home/fo/code/cahab/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+        "outputFile": "/home/forrest321/code/cahabadroid/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 356
                 },
                 "from": {
-                    "file": "/home/fo/code/cahab/src/main/res/values/strings.xml",
+                    "file": "/home/forrest321/code/cahabadroid/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
