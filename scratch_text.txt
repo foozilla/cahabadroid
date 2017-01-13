@@ -1,0 +1,4 @@
+['value']['timeSeries'][0]['values'][0]['value'][0]['value'] //47.6
+['value']['timeSeries'][0]['values'][0]['value'][0]['dateTime'] //2017-01-07T18:15:00.000-06:00
+['value']['timeSeries'][0]['variable']['variableName'] //'Streamflow, ft³/s'
+['value']['timeSeries'][0]['variable']['unit']['unitCode'] //ft3/s

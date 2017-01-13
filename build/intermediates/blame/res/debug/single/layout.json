@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/home/fo/code/cahab/build/intermediates/res/merged/debug/layout/main.xml",
+        "source": "/home/fo/code/cahab/src/main/res/layout/main.xml"
+    },
+    {
+        "merged": "/home/fo/code/cahab/build/intermediates/res/merged/debug/layout/graphwidget.xml",
+        "source": "/home/fo/code/cahab/src/main/res/layout/graphwidget.xml"
+    },
+    {
+        "merged": "/home/fo/code/cahab/build/intermediates/res/merged/debug/layout/list.xml",
+        "source": "/home/fo/code/cahab/src/main/res/layout/list.xml"
+    }
+]

@@ -1,0 +1,27 @@
+apply plugin: 'com.android.application'
+sourceSets {
+    main {
+        java.srcDir file('src/main/java/src')
+    }
+}
+buildscript {
+    allprojects {
+        repositories {
+            jcenter()
+        }
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.2.3'
+    }
+}
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.2"
+}
+
+dependencies {
+    compile 'com.jayway.jsonpath:json-path:2.2.0'
+    compile 'com.android.volley:volley:1.0.0'
+    compile 'com.jjoe64:graphview:4.2.1'
+}
